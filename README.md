@@ -1,7 +1,14 @@
 # Arduino  
-En este repositorio se guarda el codigo desarrollado para el microcontrolador, en el IDE de Arduino.  
-Este programa se encarga de enviar cabeceras con información a traves de la tecnología Bluetooth, para  
-que estas sean recogidas por una aplicación movil.  
+
+En este repositorio encontramos el codigo en C correspondiente codificado con Arduino. El objetivo principal de este código es enviar iBeacons para posteriormente ser detectados y procesados mediante una aplicación móvil con el fin de representarse en una página web, alojada en un servidor REST. 
+Este codigo cuenta con la siguiente estructura: 
+
+Función SetUp(): 
+
+Función StartAdvertising():
+
+Función Loop():  
+  
 Dentro de la cabecera tenemos diversa información:  
   -Nombre  
   -UUID  
